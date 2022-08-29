@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inicia uma conexão antecipada para agilizar - usada em front-end-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://kit.fontawesome.com/601170708b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <section class="main">
+        <h1 class="titulo">Maria Luiza Gonçalves de Moura</h1>
+
+        <img alt="Lu Moura" class="cabecalho__logo" src="./assets/images/luiza2.jpeg" />
+
+        <header class="cabecalho container">
+            <nav class="cabecalho__navegacao">
+                <ul class="menu__lista">
+                    <li class="cabecalho__link" type="submit" id="menu-sobre"><a class="menu__link menu__link--ativo"
+                            href="#">Sobre</a>
+                    </li>
+                    <li class="cabecalho__link" type="submit" id="menu-skills"><a class="menu__link" href="#">Skills</a>
+                    </li>
+                    <li class="cabecalho__link" type="submit" id="menu-hobbies"><a class="menu__link"
+                            href="#">Hobbies</a></li>
+                    <li class="cabecalho__link" type="submit" id="menu-formacao"><a class="menu__link"
+                            href="#">Formação</a></li>
+                    <li class="cabecalho__link" type="submit" id="menu-projetos"><a class="menu__link"
+                            href="#">Projetos</a></li>
+                    <li class="cabecalho__link" type="submit" id="menu-contato"><a class="menu__link"
+                            href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </section>
+
+    <section class="div-principal">
+        <!-- Sobre -->
+        <form action="">
+            <textarea class="div-mensagem" type="text" id="mensagem"></textarea>
+        </form>
+    </section>
+
+    <section class="message-box">
+        <div id="div-aparece">
+
+            <!-- Skills -->
+            <section class="skills" id="listaskills" style="display: none">
+                <div class="skills__line">
+                    <h2 class="skills__title">Skills</h2><br>
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"><img src="./assets/images/htlm.png"></li>
+                            <li class="skills__name"> HTML 5</li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img src="./assets/images/js_icon.png" alt=""></li>
+                            <li class="skills__name">Javascript </li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img src="./assets/images/css_icon.png" alt=""> </li>
+                            <li class="skills__name">CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img src="./assets/images/java.png" alt=""> </li>
+                            <li class="skills__name">Java</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Hobbies -->
+            <section class="hobbies" id="hobbies" style="display: none">
+                <h2 class="hobbies__title">Hobbies</h2><br>
+                <div class="hobbies__line">
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="./assets/images/headphones_icon.png" alt=""></li>
+                            <li class="hobbies__name">Escutar</li> música</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"><img src="./assets/images/tv_icon.png" alt=""></li>
+                            <li class="hobbies__name">Ver séries</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="./assets/images/forkspoon_icon.png" alt=""> </li>
+                            <li class="hobbies__name">Comer</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="./assets/images/livros.png" alt=""> </li>
+                            <li class="hobbies__name">Ler</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Formação Acadêmica -->
+            <section class="formacao" id="formacao" style="display: none">
+                <h2 class="titulo-formacao">Formação Acadêmica</h2><br>
+                <div class="academic__courses">
+
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="./assets/images/descomplica.jpg"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>Pós Graduação em Projetos de Aplicativos Móveis</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>Término dez/2022 - Faculdade Descomplica</p><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="./assets/images/pratica.png"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>CC50: Introdução à Ciência da Computação</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>2022 - Fundação Estudar</p><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="./assets/images/alura.png"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>Iniciante em Programação F2T2 - ONE</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>2022 - Alura</p><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="./assets/images/alura.png"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>Front End F2T2 - ONE</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>2022 - Alura</p><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <!-- Pon el logotipo de la institución de formación -->
+                            <li class="academic__courses__item__img"><img src="./assets/images/ucb.gif"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>Posgraduada em Anáise de Sistemas</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>1996 - UCB</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Projetos -->
+            <section class="projetos" id="projetos" style="display: none">
+                <h2 class="experience__section__title">Experiência Profissional</h2> <br>
+                <div class="experiencie__box">
+                    <img class="experience__img" src="./assets/images//Meu projeto.png">
+                    <div class="experience__info" <h2 class="experience__title">Encriptador de texto</h2>
+                        <h3 class="experience__text">Challenge Alura Codificador </h3>
+                        <div class="experience__description">
+                            <ul class="repo">
+                                <li><a href="https://mlumoura.github.io/decodificador-texto" target="_blank"><img
+                                            src="./assets/images/gitpages.jpeg" alt="Icone do GitHub Pages"></a></li>
+                                <br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experiencie__box">
+                    <div class="experience__info" <h2 class="experience__title">Readability (Testes de legibilidade
+                        Coleman-Liau)
+                        -
+                        CC50</h2>
+                        <h3 class="experience__text">CC50: Introdução à Ciência da Computação </h3>
+                        <div class="experience__description">
+                            <ul class="repo">
+                                <li><a href="https://github.com/mlumoura/Readability" target="_blank"><img
+                                            src="./assets/images/github-svgrepo-com.svg" alt="Icone do GitHub"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Contacto -->
+            <section class="formcontato" id="contacto" style="display: none">
+                <div class="formcontato__contacto">
+                    <div class="formcontato--esquerda">
+                        <img class="formcontato__img" src="./assets/images/email.jpg">
+                    </div>
+                    <div class="formcontato__text">
+                        <h2 class="formcontato__title">Contato</h2><br>
+                        <h3 class="formcontato__subtext">Preencha o formulário e eu entrarei em contato assim que for
+                            possível.
+                        </h3>
+                        <form class="formcontato__form" name="form">
+                            <input class="formcontato__input" type="text" name="nome" placeholder="Nome">
+                            <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                            <input class="formcontato__input" type="text" name="assunto" placeholder="Assunto">
+                            <textarea class="formcontato__textarea" rows="5" cols="40" id="message" name="message"
+                                placeholder="Mensagem"></textarea>
+                            <button type="submit" class="formcontato__botao">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer class="rodape-prin">
+        <span>&copy; Challeng { Oracle ONE - Alura } - Lu Moura - 2022</span>
+        <ul class="icones-sociais">
+            <li><a href="https://www.linkedin.com/in/lu-moura/" target="_blank"><img
+                        src="./assets/images/linkedin-in-brands.svg" alt="Icone do Linkedin"></a></li>
+            <li><a href="https://github.com/mlumoura" target="_blank"><img src="./assets/images/github-svgrepo-com.svg"
+                        alt="Icone do GitHub"></a></li>
+        </ul>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/contato.js"></script>
+</body>
+
+</html>

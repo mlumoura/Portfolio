@@ -1,0 +1,98 @@
+:root{
+    --cor-de-fundo-body: hsl(204, 74%, 54%);
+    --cor-de-texto: rgb(11, 2, 2);
+    font-family: 'Dine', Comics Sans;
+    font-size: 20px;;
+    background-color: var(--cor-de-fundo-body) ; 
+    width: auto;
+    height: auto;
+  }
+  
+  h2{
+    font-weight: bolder ;
+  }
+  
+  body {
+    box-sizing: border-box;
+  
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight:bolder;
+    padding-top: 6%;
+    width: auto;
+    margin-left: 12%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--cor-de-texto);
+  }
+  
+  .div-mensagem{
+    position: absolute;
+    border: none;
+    width: 550px;
+    height: 450px;
+    left: 90px;
+    top: 450px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    resize: none;
+    word-wrap: break-word;
+    background:transparent;
+  }
+  
+  /* onde aparecem as informações */
+  .message-box{
+    position: absolute;
+    border: none;
+    width: 600px;
+    height: 450px;
+    left: 50%;
+    top: 34px;
+    padding-left: 20px;
+    padding-top: 60px;
+    color: var(--cor-de-texto);
+    background: var(--cor-de-fundo-body);
+  }
+  
+  .academic__courses__item__img img {
+    width: 55px;
+  }
+  
+  .experience__img{
+    width: 300px;
+    height: 200px;
+  }
+  
+  .repo img{
+     width: 40px;
+  }
+  
+  .formcontato__textarea {
+    
+    border: 1px solid;
+    outline: 0;
+  }
+  
+  textarea:focus { 
+      box-shadow: 0 0 0 0;
+      border: 0 none;
+      outline: 0;
+  } 
+  
+  .formcontato img{
+    background: transparent;
+    width: 40px;
+  }
+  
+  .hobbies__img img{
+    width: 40px;
+    padding-top: 10px;
+    background:var(--cor-de-fundo-body);
+  }

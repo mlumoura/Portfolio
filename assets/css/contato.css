@@ -1,0 +1,26 @@
+
+    .formcontato--esquerda img{
+        background: transparent;
+    }
+
+    .formcontato__form, form {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input {
+        width: 250px;
+        height: 25px;
+        border-radius: 30px;
+        padding: 0 15px 0 15px;
+        resize: none;
+    }
+    
+    button {
+        width: 150px;
+        height: 25px;
+        
+    }

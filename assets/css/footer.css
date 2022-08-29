@@ -1,0 +1,44 @@
+.rodape-prin, .rodape-prin span, .icones-sociais li {
+    background: transparent;
+  }
+  
+  .rodape-prin {
+    position: absolute;
+    color:var(--cor-de-texto);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Dine', sans-serif;
+    text-align: center;
+    clear: both; /* limpa udo dos dois lados do elemento */
+    width: 95%;
+    height: 40px;
+    bottom: 7px;
+    left: 180px;
+  }
+  
+  .rodape-prin span {
+    float: left;
+    width:25%; /* determina o espaço entre o copyright e os icones */
+    line-height: 40px; /* Mesma altura do rodapé */
+  }
+  
+  .icones-sociais ul {
+    display: inline-block;
+    height: inherit;
+    width: 10%;
+    margin: 0;
+    line-height: 50px;
+  }
+  
+  .icones-sociais img{
+    background: transparent;
+  }
+  
+  .icones-sociais li {
+    display: inline-block;
+    background: transparent;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+  }
